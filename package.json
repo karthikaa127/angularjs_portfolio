@@ -1,0 +1,27 @@
+{
+  "name": "angularjs_portfolio",
+  "version": "1.0.0",
+  "description": "portfolio app developed with nodejs, express and Angular",
+  "main": "js/server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/karthikaa127/angularjs_portfolio.git"
+  },
+  "author": "karthika",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/karthikaa127/angularjs_portfolio/issues"
+  },
+  "homepage": "https://github.com/karthikaa127/angularjs_portfolio#readme",
+  "dependencies": {
+    "body-parser": "^1.16.0",
+    "express": "^4.14.0",
+    "method-override": "^2.3.7",
+    "mongoose": "^4.7.7"
+  },
+  "devDependencies": {}
+}

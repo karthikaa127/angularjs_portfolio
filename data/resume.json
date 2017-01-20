@@ -1,0 +1,166 @@
+{
+  "basics": {
+    "name": "Karthika Arumugam",
+    "label": "Web Developer",
+    "picture": "https://media.licdn.com/mpr/mpr/shrinknp_200_200/AAEAAQAAAAAAAAeQAAAAJDI0NzViMDVjLWM0MzMtNGM5Yi1iNjlkLWJhYjIwMWM0NDQ4Yw.jpg",
+    "email": "test@gmail.com",
+    "phone": "999-999-9999",
+    "website": "https://karthikaa127.wordpress.com/",
+    "summary": "Karthika hails from India and currently resides in the USA. She has earned degrees from Pondicherry University While her work focuses on front-end Web development, her non-work interests range widely, everything from quantum computing to chaos theory. She could tell you about it, but THAT would NOT be a “length-limited” conversation!",
+    "location": {
+      "address": "Amtrack Station",
+      "postalCode": "IL 61701",
+      "city": "Bloomington",
+      "countryCode": "US",
+      "region": "Illinois"
+    },
+    "profiles": [
+      {
+        "network": "Twitter",
+        "username": "karthikaa",
+        "url": "https://twitter.com/karthikaa"
+      },
+      {
+        "network": "LinkedIn",
+        "username": "karthikaa",
+        "url": "https://www.linkedin.com/in/karthikaa"
+      }
+    ]
+  },
+  "work": [
+    {
+      "company": "Cognizant Technology Solutions",
+      "position": "UI Developer",
+      "website": "https://www.cognizant.com/",
+      "startDate": "2011-10-27",
+      "endDate": "2015-1-29",
+      "summary": "Cognizant is a leading provider of information technology, consulting and business process outsourcing services, dedicated to helping the world's leading companies build stronger businesses.",
+      "highlights": []
+    },
+    {
+      "company": "NTRO",
+      "position": "Lead Developer",
+      "website": "https://ntro.gov.in/",
+      "startDate": "2011-1-1",
+      "endDate": "2011-6-30",
+      "summary": "Collaborative Directed Basic Research in Smart and Secure Environment- (CDBR-SSE) is an NTRO Sponsored Research Project. This project “Steganalysis using Binary Similarity Measures and Neural Networks” presents a novel technique for Steganalysis of images that have been subjected to embedding by steganographic algorithms.",
+      "highlights": []
+    }
+  ],
+  "volunteer": [
+    {
+      "organization": "HSS Balagokulam",
+      "position": "Teacher",
+      "website": "http://www.balagokulam.org/",
+      "startDate": "2015-07-01",
+      "endDate": "Present",
+      "summary": "Balagokulam will enable Hindu children in US to appreciate their cultural roots, learn Hindu values in an enjoyable manner and make good friends. Activities are planned for their physical, intellectual, social and spiritual development.",
+      "highlights": [
+        "Awarded 'Teacher Appreciation' for the academic year 2015-16"
+      ]
+    }
+  ],
+  "education": [
+    {
+      "institution": "Pondicherry University",
+      "area": "Computer Applications",
+      "studyType": "Masters",
+      "startDate": "2008-07-11",
+      "endDate": "2011-07-05",
+      "gpa": "8.64",
+      "courses": []
+    },
+    {
+      "institution": "Pondicherry University",
+      "area": "Computer Applications",
+      "studyType": "Bachelors",
+      "startDate": "2005-07-28",
+      "endDate": "2008-06-05",
+      "gpa": "7.78",
+      "courses": []
+    }
+  ],
+  "awards": [
+    {
+      "title": "Best Innovation Team in the design practice ",
+      "date": "2013",
+      "awarder": "Cognizant Technology Solutions, CI Team",
+      "summary": ""
+    },
+    {
+      "title": "Best Outgoing Student ",
+      "date": "2009",
+      "awarder": "Indira Gandhi College of Arts and Science affiliated to Pondicherry Universtiy",
+      "summary": ""
+    }
+  ],
+  "publications": [],
+  "skills": [
+    {
+      "name": "Web Development",
+      "level": "Master",
+      "keywords": {
+        "HTML4" : 85,
+        "HTML5" : 85,
+        "CSS3" : 85,
+        "Javascript" : 70,
+        "jQuery" : 70,
+        "AngularJS" : 60,
+        "ExtJS" : 65,
+        "Bootstrap" : 65
+      }
+    },
+    {
+      "name": "Technologies",
+      "level": "Master",
+      "keywords": {
+        "Agile" : 85,
+        "Jira" : 85,
+        "GIT" : 85,
+        "Photoshop" : 70
+      }
+    }
+  ],
+  "languages": [
+    {
+      "language": "English",
+      "fluency": "Professional"
+    },
+    {
+      "language": "Tamil",
+      "fluency": "Native speaker"
+    },
+    {
+      "language": "Hindi",
+      "fluency": "Conversational"
+    },
+    {
+      "language": "French",
+      "fluency": "Elementary"
+    }
+  ],
+  "interests": [
+    {
+      "name": "Nature",
+      "keywords": []
+    },
+    {
+      "name": "Stitching",
+      "keywords": []
+    },
+    {
+      "name": "Knitting and Crochet",
+      "keywords": []
+    }
+  ],
+  "references": [
+    {
+      "name": "Ravi Madhavan",
+      "reference": "Karthika is a very hardworking girl and she adapts to any new technologies or tools faster. She holds the dedication and commitment even while critical timeline and delivers quality works. She would be a valuable asset for any team. Good luck!!!"
+    },
+    {
+      "name": "Jerin Ittoop",
+      "reference": "I have worked with Karthika in Cognizant Technology Solutions for 3 years. Karthika is known for providing solutions to the team and her technical capability has surprised me a lot of times. With her technical skills and solution mindset she could bring value add to any team. Definitely, she would be one of the employee that each and every manager would be looking for."
+    }
+  ]
+}

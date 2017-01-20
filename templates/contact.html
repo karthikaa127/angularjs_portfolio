@@ -1,0 +1,43 @@
+<!-- Page Content -->
+<div class="container">
+    <h1 class="page-header">Contact me</h1>
+    <div class="row">
+        <div class="col-lg-5">
+            <!-- Embedded Google Map using an iframe - to select your location find it on Google maps and paste the link as the iframe src. If you want to use the Google Maps API instead then have at it! -->
+            <iframe width="100%" height="400px" frameborder="0" scrolling="no" marginheight="0" marginwidth="0"
+                    src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2551.12198636145!2d-88.93416224755931!3d40.501530890673365!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x880b087039089ac1%3A0x2e424aa54a23bc1e!2sBloomington%2C+IL!5e0!3m2!1sen!2sus!4v1481308791630"></iframe>
+        </div>
+        <div class="col-sm-7">
+            <h3>Leave a message to contact me... </h3>
+
+            <form id="contactForm" role="form" method="POST" action="#">
+                <div class="row">
+                    <div class="form-group col-lg-4">
+                        <label for="input1">Name</label>
+                        <input type="text" name="contact_name" class="form-control" id="input1" ng-model="name" required>
+                    </div>
+                    <div class="form-group col-lg-4">
+                        <label for="input2">Email Address</label>
+                        <input type="email" name="contact_email" class="form-control" id="input2" ng-model="email" required>
+                    </div>
+                    <div class="form-group col-lg-4">
+                        <label for="input3">Phone Number</label>
+                        <input type="phone" name="contact_phone" class="form-control" id="input3" ng-model="phone">
+                    </div>
+                    <div class="clearfix"></div>
+                    <div class="form-group col-lg-12">
+                        <label for="input4">Message</label>
+                        <textarea name="contact_message" class="form-control" rows="6" id="input4" ng-model="c_messsage"></textarea>
+                    </div>
+                    <div class="form-group col-lg-12">
+                        <input type="hidden" name="save" value="contact">
+                        <button type="submit" class="btn btn-primary">Submit</button>
+                    </div>
+                </div>
+            </form>
+        </div>
+
+    </div>
+    <!-- /.row -->
+
+</div><!-- /.container -->
