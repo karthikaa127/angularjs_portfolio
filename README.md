@@ -1,10 +1,10 @@
 #Application : angularjs_portfolio
 
-**Author		: Karthika. A
+**Author		: Karthika. A**
 
-Version		: V2
+**Version		: V2**
 
-Framework used	: jQuery**
+**Framework used	: jQuery**
 
 
 In this application, I designed my portfolio as a webpage with AngularJS and Twitter Bootstrap architecture.
