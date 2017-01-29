@@ -14,18 +14,20 @@
       "countryCode": "US",
       "region": "Illinois"
     },
-    "profiles": [
-      {
-        "network": "Twitter",
+    "profiles": {
+      "Twitter" : {
         "username": "karthikaa",
         "url": "https://twitter.com/karthikaa"
       },
-      {
-        "network": "LinkedIn",
+      "LinkedIn" : {
         "username": "karthikaa",
         "url": "https://www.linkedin.com/in/karthikaa"
+      },
+      "GitHub" : {
+        "username": "karthikaa127",
+        "url": "https://github.com/karthikaa127"
       }
-    ]
+    }
   },
   "work": [
     {

@@ -1,11 +1,5 @@
-d3_skills= function () {
-  $.ajax({
-    url: "/skills",
-    dataType: "json",
-    beforeSend: function( xhr ) {
-      xhr.overrideMimeType( "text/plain; charset=x-user-defined" );
-    }
-  }).done(function( skillset ) {
+d3_skills= function (skillset) {
+  console.log(skillset);
   var margin = 5;
   var w = parseInt(d3.select("#chart").style("width")) - margin*2;
   var h = parseInt(d3.select("#chart").style("height")) - margin*2;
@@ -50,5 +44,4 @@ d3_skills= function () {
           return h - (d.percent) + 14;  //15 is now 14
       })
       .attr("text-anchor", "middle");
-  });
-}
+};

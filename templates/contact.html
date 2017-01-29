@@ -9,8 +9,11 @@
         </div>
         <div class="col-sm-7">
             <h3>Leave a message to contact me... </h3>
+            <div id="success">
+              <p class="form">Thank you for contacting us. We will be in touch soon.</p>
+            </div>
 
-            <form id="contactForm" role="form" method="POST" action="#">
+            <form id="contactForm" method="POST" action="#" ng-submit="submitForm($event)" >
                 <div class="row">
                     <div class="form-group col-lg-4">
                         <label for="input1">Name</label>

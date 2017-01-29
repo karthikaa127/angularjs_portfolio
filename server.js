@@ -1,7 +1,6 @@
 var express = require('express');
 var app = express();                              //creating app with express
 var bodyParser = require('body-parser');          //pull data from POST requests
-var mongoose = require('mongoose');               //connect to MongoDB
 var methodOverride = require('method-override');  //simulate DELETE and PUT
 var path = require('path');                       //creating app with express
 var fs = require('fs');                           //for file read and write
@@ -14,7 +13,8 @@ app.use(urlencodedParser);
 app.use(bodyParser.json());
 app.use(methodOverride());
 
-var json_resume = require("https://github.com/karthikaa127/angularjs_portfolio/blob/master/data/data.json");  //__dirname+"/data/resume.json"
+var json_resume = require(__dirname+"/data/resume.json");
+var contact_data = require(__dirname+"/data/contact.json");
 
 //routing based on service request
 app.get('/skills', function (req,res) {
@@ -28,17 +28,18 @@ app.get('/skills', function (req,res) {
         skillset.push(obj);
       }
     }
-
   });
   res.send(skillset);
 });
-app.post('/todo', urlencodedParser, function (req,res) {
-  if(err) res.send(err);
-  res.json();
+
+app.get('/profile', function (req,res) {
+  res.send(json_resume.basics);
 });
-app.delete('/todo/:item', function (req,res) {
-  if(err) res.send(err);
-  res.json();
+
+app.post('/contacts', urlencodedParser, function (req,res) {
+  contact_data.data.push(req.body);
+  fs.writeFile(__dirname+'/data/contact.json', JSON.stringify(contact_data), null, "\t");
+  res.json(req.body);
 });
 
 app.get('*', function (req,res) {
