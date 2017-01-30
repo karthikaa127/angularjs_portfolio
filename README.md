@@ -4,7 +4,7 @@
 
 **Version		: V2**
 
-**Framework used	: jQuery**
+**Framework used	: Angular, Node, Express, HTML5/CSS3, Bootstrap**
 
 
 In this application, I designed my portfolio as a webpage with AngularJS and Twitter Bootstrap architecture.
